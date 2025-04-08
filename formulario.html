@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="__seu nome__">
+    <title>Tabela de Onibus</title>
+</head>
+
+<body>
+    <h1>Lista de Tarefas</h1>
+
+    <form>
+        <label>
+
+            Tarefa: <input type="text">
+
+        </label><br><br>
+
+        <label>
+
+            Descrição: <br> <textarea></textarea>
+
+        </label><br><br>
+
+        <label>
+
+            Data e Horario de Inicio <input type="datetime-local">
+        </label>
+
+        <label>
+
+            Data e Horario conclusão <input type="datetime-local">
+
+        </label><br><br>
+
+        Local de Execução: <select name="local">
+
+            <option value="Casa">Casa</option>
+            <option value="Ar livre">Ar Livre</option>
+            <option value="Trabalho">Trabalho</option>
+            <option value="Outro">Outro</option>
+
+        </select><br><br>
+
+
+
+
+        <p>Qtds de execuções diarias</p>
+
+        <ol>
+
+            <li>
+
+                <input type="radio" name="user_diaria" value="faixa_1" id="user_diaria_faixa_1">
+                <label for="user_diaria_faixa_1">1 a 3</label>
+
+            </li>
+
+            <li>
+
+                <input type="radio" name="user_diaria" value="faixa_2" id="user_diaria_faixa_2">
+                <label for="user_diaria_faixa_2">4 a 5</label>
+
+            </li>
+
+            <li>
+
+                <input type="radio" name="user_diaria" value="faixa_3" id="user_diaria_faixa_3">
+                <label for="user_diaria_faixa_3">6 +</label>
+
+            </li>
+
+        </ol>
+
+        <label>
+
+            Difculdade da Tarefa <br> <input type="range" name="dificuldade" min="0" max="10" step="1" value="5">
+
+        </label><br><br>
+
+        <label>
+
+            Metodo para conclusão:<br><textarea></textarea>
+
+        </label>
+        <br><br>
+
+        <a href="exc03.html" target="_blank">Abrir Tabela de Onibus</a>
+        <br>
+
+
+        <p>Anexo da Tarefa</p>
+
+        <form enctype="multipart/form-data">
+
+            <label>
+
+                <input type="file" name="foto" accept=".jpg, .pdf .jpeg">
+
+            </label>
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+</body>
